@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//w3c//dtd html 3.2//en"><html><head>
 
 <title>Welcome to AOL</title>
-
+<script>alert("There are one of these websites that DOESNT want the back button to show so just use the broswers back button if possible");</script>
 <meta name="Author" content="America Online, Inc.">
 <meta name="Version" content="961205/MWH">
 <meta http-equiv="PICS-Label" content="(PICS-1.1 "http://www.classify.org/safesurf/" l gen t for "http://www.aol.com/" r (SS~~000 1))">
@@ -9,7 +9,52 @@
 <meta http-equiv="Keywords" content="america online aol commercial service internet access isp www web national global">
 
 </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
 
+.alert.success {background-color: #04AA6D;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
+ <div class="alert info">
+  <span class="closebtn">&times;</span>  
+  <strong>Info!</strong> This website doesnt have the back button i'd try to add it but it doesnt appear
+</div>
+ <script>
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function(){
+    var div = this.parentElement;
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+</script>
 <frameset rows="100%,*">
 <frame name="main" src="https://theoldnet.com/get?decode=false&scripts=false&timestamp=19961220154856&url=http://aol.com/main.html" noresize="">
 <frame>
@@ -46,7 +91,7 @@ based on testing of seven browser/network configurations, accessing fifteen popu
 <p><img alt="The future. Now available on AOL" height=157 src="/images/future.gif" width=288>
 
 </center>
-<script>alert("There are one of these websites that DOESNT want the back button to show so just use the broswers back button if possible");</script>
+
 </body>
 
 </noframes>
