@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>tripod - page not found</title>
+
+<META HTTP-EQUIV="Refresh" CONTENT="60; URL=http://www.tripod.com/">
+
+</head>
+<body bgcolor="#FFFFFF" text="#000000" link="#000099" vlink="#000099" alink="#ffffff">
+
+
+<table border="0" cellspacing="5" cellpadding="0" width="75%">
+	<tr>
+		<td><font face="arial, helvetica, verdana, sans serif">
+<p>		
+<font size="4"><b>Sorry, but the page or file that you're looking for is not here.</b></font><br> 
+<font size="-1">Please check to see that you've entered the correct URL. If the URL is correct, then the content may have been moved. Search again for this page, or others like it with the search box below. 
+</p>
+<table border="0" cellspacing="2" cellpadding="0" bgcolor="#FFFFFF">
+<!-- \/ search -->
+
+							<form action="/bin/search/pursuit" method="POST">
+							<input type="hidden" name="matchmode" value="and">
+							<tr>
+								<td><font size="1" face="verdana, arial, helvetica, sans serif"><b>Search</b>&nbsp;</font></td>
+							</tr><tr>
+								<td><select name="cat">
+									<option value="lycos" selected>the Web with Lycos</option>
+									<option value="tripod" selected>Tripod</option>
+									<option value="hotbot">the Web with HotBot</option>
+									<option value="mp3">the MP3 Library</option>
+									<option value="ftp">the FTP Servers</option>
+									<option value="rich">for images/audio/video</option>
+									<option value="clubs">Lycos Clubs</option>
+									<option value="auctions">Lycos Auctions</option>
+									<!--
+									|<option value="shop">Lycos Shop</option>
+									|<option value="classifieds">Lycos Classifieds</option>
+									-->
+									</SELECT></td>
+								<td><input type="text" name="query" size="12" align="middle"><font size="2">&nbsp;</font></td>
+								<td></td>
+								<td><input type="image" src="/img/common/ggi_whitesm.gif" border="0" alt="gogetit" width="60" height="14"></td>
+							</tr>
+
+<!-- /\ search -->
+						</table><br>
+<p>
+Start building your own premier homepage today! Tripod, a Lycos&#174 Network site, provides the best personal and commercial publishing tools available on the Net.
+</p>
+
+<p>
+Just <a href="http://linktracker.tripod.com/error404/build/_h_/www.tripod.com/build/welcome/build.html">click here</a> and start building your premier homepage!
+</p>
+
+<p>
+Click <a href="http://linktracker.tripod.com/error404/tripodindex/_h_/www.tripod.com">here</a> to return to Tripod.
+</p>
+</font></td>
+	</tr>
+</table>
+
+</body>
+</html>
+
+

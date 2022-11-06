@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Project</title>
+
+<script>
+var tid;
+function initScrollSynchronization () {
+  tid = setInterval('syncFrame()', 1);
+}
+function syncFrame () {
+  if (document.all && !window.opera) {
+    var scrollTop = display.document.body.scrollTop;
+    var scrollLeft = display.document.body.scrollLeft
+  }
+  else {
+    var scrollTop = display.pageYOffset;
+    var scrollLeft = display.pageXOffset;
+
+
+  }
+  menu.scrollTo (scrollLeft, scrollTop);
+}
+</SCRIPT>
+
+
+</head>
+<!-- <FRAMESET ROWS="95  ,*,1"  BORDER=0 FRAMEBORDER=0 ONLOAD="initScrollSynchronization()"> -->
+<FRAMESET ROWS="95	,*,1"  BORDER=0 FRAMEBORDER=0 >
+
+	<FRAME NAME="top" SRC="top.php" scrolling="no">
+
+	<FRAMESET COLS="175,*">
+66.227.14.90
+<FRAME NAME="menu" SRC="resultsahfw.php" scrolling="no">;
+
+
+	<FRAME NAME="display" SRC="bodyahfw.php">
+	</FRAMESET>
+
+
+</FRAMESET>
+
+<NOFRAMES>
+<h2 align=center>NOTE: This site uses frames, but apparently your
+browser does not support this feature. Try the
+<A HREF="body.php">alternative</A> page.</h2>
+</NOFRAMES>
+
+
+</html>
