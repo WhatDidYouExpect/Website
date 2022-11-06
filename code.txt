@@ -1,0 +1,76 @@
+const Discord = require("discord.js");
+
+const TOKEN = "fuck off"
+
+const client = new Discord.Client ({
+    intents: [
+       "GUILDS",
+       "GUILD_MESSAGES"    
+
+    ]
+})
+
+client.on("ready", () => {
+    console.log(`In as ${client.user.tag}`)
+})
+client.on("messageCreate", (message) => {
+    if (message.content == "hi bot"){
+        message.reply("sup")
+    }
+})
+client.on("messageCreate", (message) => {
+    if (message.content == "who made you"){
+        message.reply("WhatDidYouExpect™#1145")
+    }
+})
+client.on("messageCreate", (message) => {
+    if (message.content == "china history"){
+        message.reply("https://www.bing.com/ck/a?!&&p=46dfb6285bea2788a647b7d0ab0ab9a1JmltdHM9MTY1NzQwMjE4NyZpZ3VpZD00ZjFlMzc0NS0zMzdhLTQxODctYmM3Yy0wODVjYTFjNThlNWYmaW5zaWQ9NTE0OQ&ptn=3&hsh=2&fclid=41aa1f20-ffce-11ec-93a5-a39ed9af4614&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvSGlzdG9yeV9vZl9DaGluYQ&ntb=1")
+    }
+})
+client.on("messageCreate", (message) => {
+    if (message.content == "性交"){
+        message.reply("なぜ性交はあなたが誓っている")
+    }
+})
+client.on("messageCreate", (message) => {
+    if (message.content == "DDoS"){
+        message.reply("https://www.youtube.com/watch?v=PHJuvO_Eazc")
+    }
+})
+client.on("messageCreate", (message) => {
+    if (message.content == "give me the funny"){
+        message.reply("https://discord.com/channels/986338755084443669/986361607414243378")
+    }
+})
+client.on("messageCreate", (message) => {
+    if (message.content == "cmds"){
+        message.reply("hi bot - says hi back")
+        message.reply("china history - shows history of china")
+        message.reply("性交 - figure it out")
+        message.reply("cmds - this")
+        message.reply("sus - sus")
+        message.reply("code - shows you bots code")
+        message.reply("crazy - crazy")
+    }
+})
+client.on("messageCreate", (message) => {
+    if (message.content == "sus"){
+        message.reply("AMOGUS")
+        message.reply("AMOGUS")
+        message.reply("AMOGUS")
+        message.reply("AMOGUS")
+        message.reply("AMOGUS")
+        message.reply("AMOGUS")
+        message.reply("AMOGUS")
+        message.reply("AMOGUS")
+        message.reply("AMOGUS")
+        message.reply("AMOGUS")
+    }
+})
+client.on("messageCreate", (message) => {
+    if (message.content == "code"){
+        message.reply("")
+    }
+})
+client.login(TOKEN)
